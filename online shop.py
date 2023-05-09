@@ -52,7 +52,7 @@ def searchProduct():
             return
         
         
-#updating the already exixting records      
+#updating the already existing records      
         
         
 def updateProduct():
