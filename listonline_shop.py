@@ -1,4 +1,4 @@
-prod=[]  #creating a dictionary
+prod=[]  #creating a list
 
 #adding a product details
 
@@ -11,7 +11,7 @@ def addProduct():
         Book_title=input("Enter Book Title: ")
         Book_price=int(input("Enter Book Price:"))
         Book_qty=int(input("Enter Book Quantity: "))
-        prod.append([Book_code,Book_cat,Book_title,Book_price,Book_qty])  #stores data as,key-value pairs in a dictionary,(key->book code , value-> list of details of book)
+        prod.append([Book_code,Book_cat,Book_title,Book_price,Book_qty])  #stores data as a list in the prod[] list
         print("The record entered successfully!")
         ch=input("\nDo you want to insert more records? (y/n):")
         if ch=='n':
